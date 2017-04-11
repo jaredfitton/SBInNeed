@@ -65,6 +65,7 @@
 			children = (
 				09C61E4C1E98546500BB772E /* SBInNeed */,
 				09C61E4B1E98546500BB772E /* Products */,
+				F96B69EA1E9C718100D6DEE5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,6 +92,13 @@
 				09C61E591E98546500BB772E /* Info.plist */,
 			);
 			path = SBInNeed;
+			sourceTree = "<group>";
+		};
+		F96B69EA1E9C718100D6DEE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +133,13 @@
 				TargetAttributes = {
 					09C61E491E98546400BB772E = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = ASCBU5GTTV;
+						DevelopmentTeam = KYEUD6KS6J;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InterAppAudio = {
+								enabled = 0;
+							};
+						};
 					};
 				};
 			};
@@ -295,10 +308,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ASCBU5GTTV;
+				DEVELOPMENT_TEAM = KYEUD6KS6J;
 				INFOPLIST_FILE = SBInNeed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jaredfitton.SBInNeed;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelmoschitto.SBInNeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -308,10 +322,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = ASCBU5GTTV;
+				DEVELOPMENT_TEAM = KYEUD6KS6J;
 				INFOPLIST_FILE = SBInNeed/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jaredfitton.SBInNeed;
+				PRODUCT_BUNDLE_IDENTIFIER = com.michaelmoschitto.SBInNeed;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
