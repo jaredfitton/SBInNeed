@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		091890C91E99865500FBC24B /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091890C81E99865500FBC24B /* CustomAnnotation.swift */; };
 		091890CD1E99A0C900FBC24B /* ResourceInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 091890CC1E99A0C900FBC24B /* ResourceInformationViewController.swift */; };
+		091A74F11E9D5B990028B0EF /* Resources.plist in Resources */ = {isa = PBXBuildFile; fileRef = 091A74F01E9D5B990028B0EF /* Resources.plist */; };
 		094938CD1E9932A100AAA429 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 094938CC1E9932A100AAA429 /* MapViewController.swift */; };
 		0988E43C1E996D34003A6EFB /* ResourceList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0988E43B1E996D34003A6EFB /* ResourceList.swift */; };
 		0988E43F1E996D80003A6EFB /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0988E43E1E996D80003A6EFB /* Resource.swift */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		091890C81E99865500FBC24B /* CustomAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
 		091890CC1E99A0C900FBC24B /* ResourceInformationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceInformationViewController.swift; sourceTree = "<group>"; };
+		091A74F01E9D5B990028B0EF /* Resources.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Resources.plist; sourceTree = "<group>"; };
 		094938CC1E9932A100AAA429 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		0988E43B1E996D34003A6EFB /* ResourceList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResourceList.swift; path = resource_files/ResourceList.swift; sourceTree = "<group>"; };
 		0988E43E1E996D80003A6EFB /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Resource.swift; path = resource_files/Resource.swift; sourceTree = "<group>"; };
@@ -52,10 +54,11 @@
 		0988E43D1E996D6C003A6EFB /* Resource_Files */ = {
 			isa = PBXGroup;
 			children = (
-				0988E43B1E996D34003A6EFB /* ResourceList.swift */,
+				091A74F01E9D5B990028B0EF /* Resources.plist */,
 				0988E43E1E996D80003A6EFB /* Resource.swift */,
-				099FBEF01E9C20160044F36B /* resourceImages */,
+				0988E43B1E996D34003A6EFB /* ResourceList.swift */,
 				0988E4401E996D8A003A6EFB /* ResourceType.swift */,
+				099FBEF01E9C20160044F36B /* resourceImages */,
 			);
 			name = Resource_Files;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 				099FBEF11E9C20160044F36B /* resourceImages in Resources */,
 				09C61E581E98546500BB772E /* LaunchScreen.storyboard in Resources */,
 				09C61E551E98546500BB772E /* Assets.xcassets in Resources */,
+				091A74F11E9D5B990028B0EF /* Resources.plist in Resources */,
 				09C61E531E98546500BB772E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

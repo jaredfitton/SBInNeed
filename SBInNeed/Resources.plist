@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>name</key>
+		<string></string>
+		<key>address</key>
+		<string></string>
+		<key>hours</key>
+		<string></string>
+		<key>phone</key>
+		<string></string>
+		<key>description</key>
+		<string></string>
+		<key>latitude</key>
+		<integer>0</integer>
+		<key>longitude</key>
+		<integer>0</integer>
+		<key>type</key>
+		<string></string>
+		<key>imgName</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string></string>
+		<key>address</key>
+		<string></string>
+		<key>hours</key>
+		<string></string>
+		<key>phone</key>
+		<string></string>
+		<key>description</key>
+		<string></string>
+		<key>latitude</key>
+		<integer>0</integer>
+		<key>longitude</key>
+		<integer>0</integer>
+		<key>type</key>
+		<string></string>
+		<key>imgName</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string></string>
+		<key>address</key>
+		<string></string>
+		<key>hours</key>
+		<string></string>
+		<key>phone</key>
+		<string></string>
+		<key>description</key>
+		<string></string>
+		<key>latitude</key>
+		<integer>0</integer>
+		<key>longitude</key>
+		<integer>0</integer>
+		<key>type</key>
+		<string></string>
+		<key>imgName</key>
+		<string></string>
+	</dict>
+</array>
+</plist>
