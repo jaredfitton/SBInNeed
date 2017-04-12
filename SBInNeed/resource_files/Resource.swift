@@ -13,23 +13,28 @@ struct Resource {
     //name, type, contact, hours?, address, coordinate, description, image
     var name: String
     var type: ResourceType
-    var contactInfo: String
+    var phone: String
     var hours: String?
     var address: String
     var latLong: CLLocationCoordinate2D
     var description: String
     var image: UIImage
     
-    init(named name:String, ofType type:ResourceType, withContactInfo contact:String, withHours hours:String?, atAddress address: String, atCoordinate coordinate: CLLocationCoordinate2D, withDescription description: String, withImage image: UIImage) {
-        self.name = name
-        self.type = type
-        self.contactInfo = contact
-        self.hours = hours
-        self.address = address
-        self.latLong = coordinate
-        self.description = description
-        self.image = image
+    init(aDictionary: NSDictionary) {
+        self.name = aDictionary.value(forKey: "name") as! String
+        self.type = aDictionary.value(forKey: "type") as! ResourceType
+        self.phone = aDictionary.value(forKey: "phone") as! String
+        self.hours = aDictionary.value(forKey: "hours") as? String
+        self.address = aDictionary.value(forKey: "address") as! String
+        
+        let lat = aDictionary.value(forKey: "latitude") as! Float
+        let long = aDictionary.value(forKey: "longitude") as! Float
+        self.latLong = CLLocationCoordinate2D(latitude: CLLocationDegrees(lat), longitude: CLLocationDegrees(long))
+        
+        self.description = aDictionary.value(forKey: "description") as! String
+        
+        let imgName = aDictionary.value(forKey: "imageName")
+        self.image = UIImage(named: "resourceImages/\(imgName)")!
     }
-    
     
 }

@@ -28,7 +28,7 @@ class ResourceInformationViewController: UIViewController {
         name.sizeToFit()
         self.address.text = resources.address
         self.resourceImage.image = resources.image
-        self.contact.text = resources.contactInfo
+        self.contact.text = resources.phone
         if resources.hours == nil {
             hours.text = "Hours: N/A"
         } else {
